@@ -1,0 +1,38 @@
+.choice{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin-left: 10px;
+    display: flex;
+    border-radius: 50%;
+    
+}
+
+.choice:hover{
+    opacity: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+}
+#paper{
+    background-color: blue;
+}
+#rock{
+    background-color: yellow;
+}
+
+.score{
+    display: flex;
+    justify-content: center;}
+    .opponent-score{
+        margin-left: 100px;
+    }
+    .my-score{
+        margin-left: 100px;
+    }
+
+    .heading{
+        display: flex;
+        justify-content: center;
+    }
