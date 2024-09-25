@@ -1,13 +1,25 @@
+body{
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .choice{
     height: 100px;
     width: 100px;
     background-color: aqua;
-    margin-left: 10px;
+    margin: 50px;
     display: flex;
     border-radius: 50%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.choices i{
+    color: white;
+    font-size: xx-large;
+}
 .choice:hover{
     opacity: 50%;
 }
@@ -25,11 +37,16 @@
 .score{
     display: flex;
     justify-content: center;}
-    .opponent-score{
-        margin-left: 100px;
+
+    
+    #com_score{
+        margin-left: 30px;
     }
     .my-score{
         margin-left: 100px;
+    }
+    #user_score{
+        margin-left: 30px;
     }
 
     .heading{
